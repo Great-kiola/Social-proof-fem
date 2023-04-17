@@ -4,8 +4,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 
 ## Screenshot
-
-![](./screenshot.jpg)
+<img src="./assets/Completed design.png" alt="Screenshot of completed design" width="20" height="20" />
 
 ## Overview
 

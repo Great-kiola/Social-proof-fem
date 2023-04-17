@@ -10,11 +10,9 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   font-family: 'League Spartan', sans-serif;
-  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-image: url(./images/bg-pattern-bottom-desktop.svg), url(./images/bg-pattern-top-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  top: 70px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,12 +50,34 @@ p{
   color: var(--VeryDarkMagenta);
 }
 
+img{
+  margin-right: 7px;
+}
+
+.pfpImg{
+  border-radius: 100%;
+  width: 70px;
+  padding: 7px;
+}
+
+.pfpDiv{
+  display: flex;
+  margin-bottom: 10px;
+}
+
 .ratings{
   display: flex;
   align-items: center;
   justify-content: right;
 }
 
+.rate1{
+  margin-left: -70px !important;
+}
+
+.rate3{
+  margin-left: 90px !important;
+}
 
 .rate{
   color: var(--VeryDarkMagenta);
@@ -112,10 +132,32 @@ ul{
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+@media all and (max-width: 1367px) {
+
+  body{
+    background-color: red;
+    display: block !important;
+  }
+
+  .firstContainer{
+    display: block;
+  }
+
+  .secondContainer{
+    display: block;
+  }
+
+  .card{
+    display: block;
+  }
+
 }
