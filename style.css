@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -25,8 +25,8 @@ main {
   margin: 40px;
 }
 
-.texts{
-  width: 420px;
+.textsDiv{
+  width: 530px;
 }
 
 .firstContainer{
@@ -36,9 +36,20 @@ main {
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 4.5rem;
   color: var(--VeryDarkMagenta);
-  line-height: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+p{
+  font-size: 1.3rem;
+ 
+}
+
+.textsDiv p{
+  color: var(--VeryDarkMagenta);
 }
 
 .ratings{
@@ -46,6 +57,7 @@ h1{
   align-items: center;
   justify-content: right;
 }
+
 
 .rate{
   color: var(--VeryDarkMagenta);
@@ -66,13 +78,22 @@ h1{
 .crd{
   border-radius: 10px;
   background-color: var(--VeryDarkMagenta);
-  margin: 10px;
+  margin: 50px 10px;
   padding: 20px;
   color: white;
   width: 400px;
   height: 250px;
   font-size: 1.3rem;
 }
+
+.crd1{
+  margin-top: -60px !important;
+}
+
+.crd3{
+  margin-top: 120px;
+}
+
 
 .verified{
   color: var(--SoftPink);
