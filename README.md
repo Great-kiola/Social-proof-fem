@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Great-kiola/Social-proof-fem)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://social-proof-fem-brown.vercel.app/)
 
 ## My process
 
