@@ -15,8 +15,71 @@ body {
   background-size: cover;
   position: relative;
   top: 70px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+main {
+  margin: 40px;
+}
 
+.texts{
+  width: 420px;
+}
+
+.firstContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 3rem;
+  color: var(--VeryDarkMagenta);
+  line-height: 50px;
+}
+
+.ratings{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.rate{
+  color: var(--VeryDarkMagenta);
+  background-color: var(--LightGrayishMagenta);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 500px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+}
+
+.crd{
+  border-radius: 10px;
+  background-color: var(--VeryDarkMagenta);
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  width: 400px;
+  height: 250px;
+  font-size: 1.3rem;
+}
+
+.verified{
+  color: var(--SoftPink);
+}
+
+ul{
+  list-style: none;
 }
 
 :root {
